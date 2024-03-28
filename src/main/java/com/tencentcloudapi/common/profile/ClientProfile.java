@@ -17,6 +17,8 @@
 
 package com.tencentcloudapi.common.profile;
 
+import javax.net.ssl.HostnameVerifier;
+
 public class ClientProfile {
 
     /**
