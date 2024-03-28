@@ -64,6 +64,7 @@ public class BillingClient extends AbstractClient{
      * @return DescribeBillDetailResponse
      * @throws TencentCloudSDKException
      */
+
     public DescribeBillDetailResponse DescribeBillDetail(DescribeBillDetailRequest req) throws TencentCloudSDKException{
         JsonResponseModel<DescribeBillDetailResponse> rsp = null;
         String rspStr = "";
